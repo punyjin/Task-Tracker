@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js"></script>
+    
+</head>
+<body>
+    <div class="login-box">
+        <h2>เข้าสู่ระบบ</h2>
+        <form  id="loginForm">
+            <div class="user-box">
+                <input type="text" name="username" id="username" required="">
+                <label>Username</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="password" id="password" required="">
+                <label>Password</label>
+            </div>
+            <div class="remember-me">
+                <input type="checkbox" name="remember" id="remember">
+                <label>Remember Me</label>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script type="module" src="assets/js/events/logindata.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* Animation for table rows on hover */
+table tr:hover {
+    background-color: #fef4f4;
+    transition: background-color 0.3s ease;
+}
+
+/* Button animations */
+button {
+    background-color: #40a044;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #4ac450;
+    transform: scale(1.05);
+}
+
+/* Modal animations */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: fadeIn 0.5s;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    animation: slideIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes slideIn {
+    from {transform: translateY(-50px);}
+    to {transform: translateY(0);}
+}
+
+/* Close button hover effect */
+.btn-close:hover,
+.btn-close:focus {
+    color: #fffefe;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Box flex container */
+.box {
+    display: flex;
+    background: linear-gradient(45deg, red, yellow);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Checkmark styles */
+.checkmark {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 2px solid green;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.checkmark:hover {
+    background-color: green;
+    transform: rotate(20deg);
+}
+
+/* Image table styling */
+.img-table {
+    width: 100%;
+}
+
+.table-container {
+    display: block;
+    gap: 35px;
+    background-color: #ffffff;
+    color: #f8f8f8;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    overflow-x: auto;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    animation: fadeInBackground 1s ease-in-out;
+    background-image: url(https://images.wallpapersden.com/image/download/path-in-minimalist-landscape-4k_bWhqaGuUmZqaraWkpJRqZmdlrWdtbWU.jpg);
+}
+
+@keyframes fadeInBackground {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.navbar {
+    width: 100%;
+    background-color: #f8f9fa; /* Light grey background */
+    border-bottom: 1px solid #dee2e6; /* Border for separation */
+}
+.navbar-brand {
+    font-weight: bold;
+    padding-left: 20px;
+}
+.navbar-nav .nav-item .nav-link {
+    padding: 0.5rem 1rem;
+}
+.navbar-nav .nav-link {
+    color: #212529; /* Dark text color */
+}
+.navbar-nav .nav-link:hover {
+    color: #0d6efd; /* Blue color on hover */
+}
+.dropdown-menu {
+    border-radius: 0.25rem; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+.dropdown-item {
+    font-size: 0.875rem;
+}
+.dropdown-item:hover {
+    background-color: #f1f1f1; /* Light grey background on hover */
+}
+.img-profile {
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    object-fit: cover;
+}
+#logoutButton:hover{
+    cursor: pointer;
+}

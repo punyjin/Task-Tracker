@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#">Tasks Tracker</a>
+        <ul class="navbar-nav ms-auto"> <!-- Align to the right -->
+            <li class="nav-item dropdown no-arrow">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small" id="uidname">User Name</span>
+                    <img class="img-profile rounded-circle" src="https://img.icons8.com/fluency/48/user-male-circle--v1.png">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end shadow animated--grow-in" aria-labelledby="userDropdown">
+                    <li><a class="dropdown-item" href="#">
+                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                        ข้อมูลส่วนตัว
+                    </a></li>
+                    <li><a class="dropdown-item" href="#">
+                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                        เปลี่ยนรหัสผ่าน
+                    </a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" id="logoutButton" href="#">
+                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                        ออกจากระบบ
+                    </a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <h2 class="text-center mb-5">Tasks Tracker</h2>
+    <h4 class="text-center">ระบบแสดงผลการติดตามงาน และ รายละเอียดงาน</h4>
+    <h4 class="text-center">ปวส. 1/6 สาขา เทคโนโลยีสารสนเทศ</h4>
+    <div class="table-container">
+        <table id="taskTable" class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ชื่อวิชา</th>
+                    <th>ช่องที่ 1</th>
+                    <th>ช่องที่ 2</th>
+                    <th>ช่องที่ 3</th>
+                    <th>ช่องที่ 4</th>
+                    <th>สถานะงานทั้งหมด</th>
+                    <th>งานล่าสุด</th>
+                    <th>รายละเอียด</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- เนื้อหาในตารางจะถูกเพิ่มโดย JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <div class="modal" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalSubject">รายละเอียดงาน</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 id="modalScoreTitle" class="text-primary mb-3"></h2>
+                    <div class="mb-3">
+                        <label for="modalTaskName" class="form-label">งานล่าสุด:</label>
+                        <input type="text" id="modalTaskName" class="form-control" disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modalTaskDetails" class="form-label">รายละเอียด:</label>
+                        <textarea id="modalTaskDetails" class="form-control" rows="3" disabled></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="modalTaskCompleted" class="form-check-label">สถานะงาน:</label>
+                        <input type="checkbox" id="modalTaskCompleted" class="form-check-input ms-2">
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-check">
+                                <input type="checkbox" id="work1Status" class="form-check-input">
+                                <label for="work1Status" class="form-check-label">งาน 1</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-check">
+                                <input type="checkbox" id="work2Status" class="form-check-input">
+                                <label for="work2Status" class="form-check-label">งาน 2</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-check">
+                                <input type="checkbox" id="work3Status" class="form-check-input">
+                                <label for="work3Status" class="form-check-label">งาน 3</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-check">
+                                <input type="checkbox" id="work4Status" class="form-check-input">
+                                <label for="work4Status" class="form-check-label">งาน 4</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="closeButton" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+                    <button type="button" id="saveButton" class="btn btn-success">บันทึก</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <img class="img-table" src="https://raw.githubusercontent.com/punyjin/Task-Tracker/main/assets/imgs/1717413079689.webp" alt="Task Tracker Image">
+    </div>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

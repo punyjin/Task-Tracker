@@ -1,0 +1,100 @@
+
+        /* กำหนดพื้นหลังของหน้า */
+        body {
+            background: linear-gradient(525deg, #08316e, #27629d);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .login-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            width: 300px;
+            text-align: center;
+            color: #fff;
+            transition: transform 0.3s ease;
+            filter: none;
+        }
+        
+        /* .login-box:hover {
+            transform: scale3d(1.05, 1.05, 1.05);
+        } */
+
+        .login-box h2 {
+            margin: 0 0 20px;
+            padding: 0;
+            font-size: 24px;
+        }
+
+        .login-box .user-box {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .login-box .user-box input {
+            width: 100%;
+            padding: 10px 0;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .login-box .user-box label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+        }
+
+        .login-box .user-box input:focus ~ label,
+        .login-box .user-box input:valid ~ label {
+            top: -20px;
+            left: 0;
+            color: #03e9f4;
+            font-size: 12px;
+        }
+
+        .remember-me {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .remember-me input[type="checkbox"] {
+            margin-right: 10px;
+            accent-color: #03e9f4;
+        }
+
+        .login-box button {
+            background: linear-gradient(220deg, #03e9f4, #3498db);
+            border: none;
+            padding: 15px 20px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            border-radius: 5px;
+            width: 100%;
+            letter-spacing: 1px;
+            transition: background 0.5s, transform 0.3s;
+        }
+
+        .login-box button:hover {
+            background: linear-gradient(520deg, #3498db, #03e9f4);
+            transform: translateY(-5px);
+        }
