@@ -42,7 +42,12 @@ function handleSave() {
                 .then(() => {
                     console.log('Data updated successfully! Task:', taskId);
                     console.log(updatedData);
-                    alert("บันทึกสำเร็จ !");
+                    swal.fire ({
+                        icon: 'success',
+                        title: 'ดำเนินการสำเร็จ',
+                        text: 'บันทึกข้อมูลสำเร็จ'
+                        })
+                    //alert("บันทึกสำเร็จ !");
                     closeModal(); // Close modal after saving
                     fetchData(); // Refresh the table data
                 })
