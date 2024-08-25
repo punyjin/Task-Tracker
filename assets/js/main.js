@@ -18,10 +18,7 @@ function userdatadetails(email) {
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
-        console.log('User is signed in:', user);
-        console.log('User UID:', user.uid);
         username.innerHTML = userdatadetails(user.email);
-        console.log('User Email:', user.email);
     } else {
         console.log('No user is signed in.');
         Swal.fire({

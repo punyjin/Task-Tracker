@@ -1,852 +1,857 @@
-{
-  "tasks": [
-    null,
-    {
-      "checked_all": false,
-      "checked_c1": false,
-      "checked_c2": false,
-      "checked_c3": true,
-      "checked_c4": true,
-      "checked_w1": false,
-      "checked_w2": false,
-      "checked_w3": false,
-      "checked_w4": false,
-      "details": "นี่คือ Front-End",
-      "scorebox_1": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "เขียนเรื่อง IP Address",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "ลืมละ",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "ทำ Grid มั้งนะ",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "งานล่วงหน้า(ช่องที่ 4) ทำเว็บรีวิวสินค้า !",
-          "WorkStatus": false
-        }
+[
+  null,
+  {
+    "checked_all": false,
+    "checked_c1": false,
+    "checked_c2": false,
+    "checked_c3": true,
+    "checked_c4": true,
+    "checked_w1": false,
+    "checked_w2": false,
+    "checked_w3": false,
+    "checked_w4": false,
+    "details": "นี่คือ Front-End",
+    "lastest_work": "",
+    "scorebox_1": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "เขียนเรื่อง IP Address",
+        "WorkStatus": false
       },
-      "scorebox_2": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "ลืมละ",
+        "WorkStatus": false
       },
-      "scorebox_3": {
-        "WorkInfo_01": {
-          "Details": "ตั้งชื่อไฟล์ว่า Grid.html โดยใช้ Bootstrap",
-          "Links": "",
-          "Name": "ทำ Grid ด้วย Bootstrap",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "งานชิ้นที่ 2 ทำ Table ต้องสามารถคลิ๊กที่ Email และส่งเมลได้",
-          "Links": "",
-          "Name": "ทำ Table รายชื่อและติดต่อได้",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "ทำ Grid มั้งนะ",
+        "WorkStatus": false
       },
-      "scorebox_4": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "ออกแบบเว็บไซต์รีวิวสินค้า",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
-      },
-      "subject": "เทคโนโลยี Front-End"
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "งานล่วงหน้า(ช่องที่ 4) ทำเว็บรีวิวสินค้า !",
+        "WorkStatus": false
+      }
     },
-    {
-      "checked_all": false,
-      "checked_c1": false,
-      "checked_c2": false,
-      "checked_c3": true,
-      "checked_c4": true,
-      "checked_w1": false,
-      "checked_w2": false,
-      "checked_w3": false,
-      "checked_w4": false,
-      "details": "",
-      "scorebox_1": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+    "scorebox_2": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_2": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_3": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_4": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
-      },
-      "subject": "อังกฤษสื่อสาร"
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
     },
-    {
-      "checked_all": false,
-      "checked_c1": false,
-      "checked_c2": false,
-      "checked_c3": true,
-      "checked_c4": true,
-      "checked_w1": false,
-      "checked_w2": false,
-      "checked_w3": false,
-      "checked_w4": false,
-      "details": "",
-      "scorebox_1": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+    "scorebox_3": {
+      "WorkInfo_01": {
+        "Details": "ตั้งชื่อไฟล์ว่า Grid.html โดยใช้ Bootstrap",
+        "Links": "",
+        "Name": "ทำ Grid ด้วย Bootstrap",
+        "WorkStatus": true
       },
-      "scorebox_2": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_02": {
+        "Details": "ทำ Table ต้องสามารถคลิ๊กที่ Email และส่งเมลได้",
+        "Links": "",
+        "Name": "ทำ Table รายชื่อและติดต่อได้",
+        "WorkStatus": true
       },
-      "scorebox_3": {
-        "WorkInfo_01": {
-          "Details": "ออกแบบ Mind Mapping ในหัวข้อ เทคนิคการสร้างสรรค์สื่อภาพเคลื่อนไหว ",
-          "Links": "",
-          "Name": "Mind Mapping เทคนิคการสร้างสรรค์สื่อภาพเคลื่อนไหว ",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "ออกแบบโปสเตอร์วันแม่ด้วย Canva",
-          "Links": "",
-          "Name": "ออกแบบโปสเตอร์วันแม่",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_4": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
-      },
-      "subject": "การสร้างสื่อดิจิทัล"
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
     },
-    {
-      "checked_all": false,
-      "checked_c1": false,
-      "checked_c2": false,
-      "checked_c3": true,
-      "checked_c4": true,
-      "checked_w1": false,
-      "checked_w2": false,
-      "checked_w3": false,
-      "checked_w4": false,
-      "details": "",
-      "scorebox_1": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+    "scorebox_4": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "ออกแบบเว็บไซต์รีวิวสินค้า",
+        "WorkStatus": false
       },
-      "scorebox_2": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_3": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_4": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
-      },
-      "subject": "บริหารงานคุณภาพ"
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
     },
-    {
-      "checked_all": false,
-      "checked_c1": false,
-      "checked_c2": false,
-      "checked_c3": true,
-      "checked_c4": true,
-      "checked_w1": false,
-      "checked_w2": false,
-      "checked_w3": false,
-      "checked_w4": false,
-      "details": "",
-      "scorebox_1": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+    "subject": "เทคโนโลยี Front-End"
+  },
+  {
+    "checked_all": false,
+    "checked_c1": false,
+    "checked_c2": false,
+    "checked_c3": true,
+    "checked_c4": true,
+    "checked_w1": false,
+    "checked_w2": false,
+    "checked_w3": false,
+    "checked_w4": false,
+    "details": "",
+    "lastest_work": "",
+    "scorebox_1": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_2": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_3": {
-        "WorkInfo_01": {
-          "Details": "ติดตั้ง VMWARE WorkStation Pro 17 และ ทดลองใช้งาน",
-          "Links": "",
-          "Name": "ติดตั้ง VMWARE",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_4": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
-      },
-      "subject": "ปฏิบัติการเครื่องแม่ข่าย"
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
     },
-    {
-      "checked_all": false,
-      "checked_c1": false,
-      "checked_c2": false,
-      "checked_c3": true,
-      "checked_c4": true,
-      "checked_w1": false,
-      "checked_w2": false,
-      "checked_w3": false,
-      "checked_w4": false,
-      "details": "",
-      "scorebox_1": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+    "scorebox_2": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_2": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_3": {
-        "WorkInfo_01": {
-          "Details": "วิเคราะห์ไฟล์ .xlsx ที่ได้จากไลน์ ด้วย Power BI และส่งลงใน LINE",
-          "Links": "",
-          "Name": "วิเคราะห์ไฟล์ .xlsx ด้วย Power BI",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_4": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
-      },
-      "subject": "วิเคราะห์และนำเสนอ"
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
     },
-    {
-      "checked_all": false,
-      "checked_c1": false,
-      "checked_c2": false,
-      "checked_c3": true,
-      "checked_c4": true,
-      "checked_w1": false,
-      "checked_w2": false,
-      "checked_w3": false,
-      "checked_w4": false,
-      "details": "",
-      "scorebox_1": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+    "scorebox_3": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_2": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_3": {
-        "WorkInfo_01": {
-          "Details": "ทำแบบฝึกหัดหน้า 80-81 ตอนที่ 3 ทำแค่ 2 ข้อ ข้อ 1 กับ 2 และหน้าที่ 99",
-          "Links": "",
-          "Name": "ทำแบบฝึกหัดหน้า 80-81 และ 99",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "scorebox_4": {
-        "WorkInfo_01": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_02": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_03": {
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        },
-        "WorkInfo_Main": {
-          "All_Details": "",
-          "Details": "",
-          "Links": "",
-          "Name": "",
-          "WorkStatus": false
-        }
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_4": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
       },
-      "subject": "วิทย์ธุรกิจบริการ"
-    }
-  ]
-}
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "subject": "อังกฤษสื่อสาร"
+  },
+  {
+    "checked_all": false,
+    "checked_c1": false,
+    "checked_c2": false,
+    "checked_c3": true,
+    "checked_c4": true,
+    "checked_w1": false,
+    "checked_w2": false,
+    "checked_w3": false,
+    "checked_w4": false,
+    "details": "",
+    "lastest_work": "",
+    "scorebox_1": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_2": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_3": {
+      "WorkInfo_01": {
+        "Details": "ออกแบบ Mind Mapping ในหัวข้อ เทคนิคการสร้างสรรค์สื่อภาพเคลื่อนไหว ",
+        "Links": "",
+        "Name": "Mind Mapping เทคนิคการสร้างสรรค์สื่อภาพเคลื่อนไหว ",
+        "WorkStatus": true
+      },
+      "WorkInfo_02": {
+        "Details": "ออกแบบโปสเตอร์วันแม่ด้วย Canva",
+        "Links": "",
+        "Name": " ออกแบบโปสเตอร์วันแม่",
+        "WorkStatus": true
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_4": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "subject": "การสร้างสื่อดิจิทัล"
+  },
+  {
+    "checked_all": false,
+    "checked_c1": false,
+    "checked_c2": false,
+    "checked_c3": true,
+    "checked_c4": true,
+    "checked_w1": false,
+    "checked_w2": false,
+    "checked_w3": false,
+    "checked_w4": false,
+    "details": "",
+    "lastest_work": "",
+    "scorebox_1": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_2": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_3": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_4": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "subject": "บริหารงานคุณภาพ"
+  },
+  {
+    "checked_all": false,
+    "checked_c1": false,
+    "checked_c2": false,
+    "checked_c3": true,
+    "checked_c4": true,
+    "checked_w1": false,
+    "checked_w2": false,
+    "checked_w3": false,
+    "checked_w4": false,
+    "details": "",
+    "lastest_work": "",
+    "scorebox_1": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_2": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_3": {
+      "WorkInfo_01": {
+        "Details": "ติดตั้ง VMWARE WorkStation Pro 17 และ ทดลองใช้งาน",
+        "Links": "",
+        "Name": "ติดตั้ง VMWARE",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_4": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "subject": "ปฏิบัติการเครื่องแม่ข่าย"
+  },
+  {
+    "checked_all": false,
+    "checked_c1": false,
+    "checked_c2": false,
+    "checked_c3": true,
+    "checked_c4": true,
+    "checked_w1": false,
+    "checked_w2": false,
+    "checked_w3": false,
+    "checked_w4": false,
+    "details": "",
+    "lastest_work": "",
+    "scorebox_1": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_2": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_3": {
+      "WorkInfo_01": {
+        "Details": "วิเคราะห์ไฟล์ .xlsx ที่ได้จากไลน์ ด้วย Power BI และส่งลงใน LINE",
+        "Links": "",
+        "Name": "วิเคราะห์ไฟล์ .xlsx ด้วย Power BI",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_4": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "subject": "วิเคราะห์และนำเสนอ"
+  },
+  {
+    "checked_all": false,
+    "checked_c1": false,
+    "checked_c2": false,
+    "checked_c3": true,
+    "checked_c4": true,
+    "checked_w1": false,
+    "checked_w2": false,
+    "checked_w3": false,
+    "checked_w4": false,
+    "details": "",
+    "lastest_work": "",
+    "scorebox_1": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_2": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_3": {
+      "WorkInfo_01": {
+        "Details": "ทำแบบฝึกหัดหน้า 80-81 ตอนที่ 3 ทำแค่ 2 ข้อ ข้อ 1 กับ 2 และหน้าที่ 99",
+        "Links": "",
+        "Name": "ทำแบบฝึกหัดหน้า 80-81 และ 99",
+        "WorkStatus": true
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": " ",
+        "WorkStatus": true
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "scorebox_4": {
+      "WorkInfo_01": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_02": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_03": {
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      },
+      "WorkInfo_Main": {
+        "All_Details": "",
+        "Details": "",
+        "Links": "",
+        "Name": "",
+        "WorkStatus": false
+      }
+    },
+    "subject": "วิทย์ธุรกิจบริการ"
+  }
+]

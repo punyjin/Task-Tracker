@@ -1,23 +1,27 @@
 import { app, database, ref, set, get, onValue } from '../fb_config.js';
 
-function getworkdetails(work) {
-    switch (work) {
-        case 1:
-            return "Cat";
-        default:
-            return "None";
+function getLatestWork(scorebox) {
+    if (scorebox.WorkInfo_02 && scorebox.WorkInfo_02.Name) {
+        return `งานชิ้นที่ 2 : ${scorebox.WorkInfo_02.Name}`;
+    } else if (scorebox.WorkInfo_01 && scorebox.WorkInfo_01.Name) {
+        return `งานชิ้นที่ 1 : ${scorebox.WorkInfo_01.Name}`;
+    } else {
+        return 'ไม่มีงานที่แสดง';
     }
 }
+
 
 function showDetails(taskId) {
     const taskRef = ref(database, 'tasks/' + taskId);
     get(taskRef).then((snapshot) => {
         if (snapshot.exists()) {
             const taskData = snapshot.val();
+            const latestWork = getLatestWork(taskData.scorebox_3);
+
             document.getElementById('subject_data_id').value = taskId;
             document.getElementById('modalSubject').textContent = "รายละเอียดเพิ่มเติม " //
             document.getElementById('modalScoreTitle').textContent = taskData.subject; //`ช่องคะแนนที่ ${taskId}`;
-            document.getElementById('modalTaskName').value = taskData.scorebox_1.WorkInfo_Main.Name; //งานล่าสุด
+            document.getElementById('modalTaskName').value = latestWork; //งานล่าสุด
             document.getElementById('modalTaskDetails').value = taskData.details; //ข้อมูลงาน
             document.getElementById('modalTaskCompleted').checked = taskData.checked_all;
 
@@ -52,4 +56,4 @@ function closeModal() {
     const modal = document.getElementById('detailsModal');
     modal.style.display = 'none';
 }
-export { closeModal , showDetails };
+export { closeModal , showDetails , getLatestWork };

@@ -24,7 +24,7 @@ document.getElementById('loginForm').addEventListener('submit', (event) => {
                 title: 'เข้าสู่ระบบสําเร็จ',
                 text: 'ยินดีต้อนรับกลับคุณ ' + user.email
             })
-            console.log('User signed in:', user);
+            // console.log('User signed in:', user);
             buttonlogin.disabled = true;
             setTimeout(() => {
                 window.location.href = 'index.html';
