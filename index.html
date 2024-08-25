@@ -63,67 +63,110 @@
             </tbody>
         </table>
     </div>
+    <input type="hidden" id="subject_data_id" value=""></input>
     <div class="modal" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalSubject">รายละเอียดงาน</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalSubject">รายละเอียดงาน</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- แสดงชื่อของงานล่าสุด -->
+                <h2 id="modalScoreTitle" class="text-primary mb-3"></h2>
+
+                <!-- ข้อมูลของงานล่าสุด -->
+                <div class="mb-3">
+                    <label for="modalTaskName" class="form-label">งานล่าสุด:</label>
+                    <input type="text" id="modalTaskName" class="form-control" disabled>
                 </div>
-                <div class="modal-body">
-                    <h2 id="modalScoreTitle" class="text-primary mb-3"></h2>
-                    <div class="mb-3">
-                        <label for="modalTaskName" class="form-label">งานล่าสุด:</label>
-                        <input type="text" id="modalTaskName" class="form-control" disabled>
-                    </div>
-                    <div class="mb-3">
-                        <label for="modalTaskDetails" class="form-label">รายละเอียด:</label>
-                        <textarea id="modalTaskDetails" class="form-control" rows="3" disabled></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label for="modalTaskCompleted" class="form-check-label">สถานะงาน:</label>
-                        <input type="checkbox" id="modalTaskCompleted" class="form-check-input ms-2">
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="form-check">
-                                <input type="checkbox" id="work1Status" class="form-check-input">
-                                <label for="work1Status" class="form-check-label">งาน 1</label>
+                <div class="mb-3">
+                    <label for="modalTaskDetails" class="form-label">รายละเอียด:</label>
+                    <textarea id="modalTaskDetails" class="form-control" rows="3" disabled></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="modalTaskCompleted" class="form-check-label">สถานะช่องคะแนนทั้งหมด:</label>
+                    <input type="checkbox" id="modalTaskCompleted" class="form-check-input ms-2" disabled>
+                </div>
+                <hr>
+                <h4 style="color: green;">ช่องคะแนนที่เปิดอยู่</h4>
+                <div class="accordion" id="workDetailsAccordion">
+                    <!-- ช่องคะแนนที่ 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingWork3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWork3" aria-expanded="false" aria-controls="collapseWork3">
+                                ช่องคะแนนที่ 3
+                            </button>
+                        </h2>
+                        <div id="collapseWork3" class="accordion-collapse collapse" aria-labelledby="headingWork3" data-bs-parent="#workDetailsAccordion">
+                            <div class="accordion-body">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" id="name_sb3_item_1" disabled>
+                                    <div class="input-group-text">
+                                      <input class="form-check-input mt-0" type="checkbox" id="cb_sb3_item_1" value="" >
+                                    </div>
+                                    
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" id="name_sb3_item_2" disabled>
+                                    <div class="input-group-text">
+                                      <input class="form-check-input mt-0" type="checkbox" id="cb_sb3_item_2" value="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="form">
+                                    <label for="work3Status" class="form-check-label">สถานะช่องคะแนนที่ 3</label>
+                                    <input type="checkbox" id="work3Status" class="form-check-input">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="form-check">
-                                <input type="checkbox" id="work2Status" class="form-check-input">
-                                <label for="work2Status" class="form-check-label">งาน 2</label>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-check">
-                                <input type="checkbox" id="work3Status" class="form-check-input">
-                                <label for="work3Status" class="form-check-label">งาน 3</label>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-check">
-                                <input type="checkbox" id="work4Status" class="form-check-input">
-                                <label for="work4Status" class="form-check-label">งาน 4</label>
+                    </div>
+                    <!-- ช่องคะแนนที่ 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingWork4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWork4" aria-expanded="false" aria-controls="collapseWork4">
+                                ช่องคะแนนที่ 4
+                            </button>
+                        </h2>
+                        <div id="collapseWork4" class="accordion-collapse collapse" aria-labelledby="headingWork4" data-bs-parent="#workDetailsAccordion">
+                            <div class="accordion-body">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" id="name_sb4_item_1" disabled>
+                                    <div class="input-group-text">
+                                      <input class="form-check-input mt-0" type="checkbox" value="" id="cb_sb4_item_1">
+                                    </div>
+                                    
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" id="name_sb4_item_2" disabled>
+                                    <div class="input-group-text">
+                                      <input class="form-check-input mt-0" type="checkbox" value="" id="cb_sb4_item_2">
+                                    </div>
+                                    
+                                </div>
+                                <div class="form">
+                                    <label for="work4Status" class="form-check-label">สถานะช่องคะแนนที่ 4</label>
+                                    <input type="checkbox" id="work4Status" class="form-check-input">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" id="closeButton" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
-                    <button type="button" id="saveButton" class="btn btn-success">บันทึก</button>
+                </div>
+                
+                        <div class="modal-footer">
+                            <button type="button" id="closeButton" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+                            <button type="button" id="saveButton" class="btn btn-success">บันทึก</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
+</div>
     <div class="text-center mt-5">
         <img class="img-table" src="https://raw.githubusercontent.com/punyjin/Task-Tracker/main/assets/imgs/1717413079689.webp" alt="Task Tracker Image">
     </div>
-
     <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>

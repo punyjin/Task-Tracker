@@ -6,7 +6,7 @@ let username = document.getElementById('uidname');
 function userdatadetails(email) {
     switch (email) {
         case "test@test.com":
-            return "Tester";
+            return "ผู้ทดสอบระบบ";
         case "admin@admin.com":
             return "Admin";
         case "wapakrit@gmail.com":

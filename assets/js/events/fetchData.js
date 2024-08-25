@@ -22,7 +22,7 @@ function fetchData() {
                     <td>${getSquareboxIcon(taskData.checked_c3)} ${taskData.checked_c3 ? 'เปิดอยู่' : 'ปิดแล้ว'}</td>
                     <td>${getSquareboxIcon(taskData.checked_c4)} ${taskData.checked_c4 ? 'เปิดอยู่' : 'ปิดแล้ว'}</td>
                     <td>${taskData.checked_all ? 'เสร็จแล้ว' : 'ยังไม่เสร็จ'}</td>
-                    <td>${taskData.details}</td>
+                    <td>${taskData.scorebox_1.WorkInfo_Main.Name}</td>
                     <td><button style="border-radius: 5px;" onclick="showDetails('${taskId}')">ดูรายละเอียด</button></td>
                 `;
                 tbody.appendChild(row);
