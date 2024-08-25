@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -127,3 +128,53 @@
     <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <h1>Task Tracker</h1>
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <th>ชื่อวิชา</th>
+                <th>ช่องที่ 1</th>
+                <th>ช่องที่ 2</th>
+                <th>ช่องที่ 3</th>
+                <th>ช่องที่ 4</th>
+                <th>สถานะงานทั้งหมด</th>
+                <th>หมายเหตุ</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalSubject"></h2>
+            <h1 id="modalScoreTitle"></h1>
+            <input type="text" id="modalTaskName" class="input-field" disabled><br><br>
+            <input type="text" id="modalTaskDetails" class="input-field" disabled><br><br>
+            <input type="checkbox" id="modalTaskCompleted"> Status
+            <input type="checkbox" id="work1Status"> งาน 1
+            <input type="checkbox" id="work2Status"> งาน 2
+            <input type="checkbox" id="work3Status"> งาน 3
+            <input type="checkbox" id="work4Status"> งาน 4
+            
+            <br><button id="saveButton">บันทึก</button>
+        </div>
+    </div>
+    <script type="module" src="application.js"></script>
+</body>
+</html>
+>>>>>>> 665c75d672d212e6c6a8c679843c21e167042adf
