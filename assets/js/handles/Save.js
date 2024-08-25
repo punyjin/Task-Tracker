@@ -15,13 +15,13 @@ function handleSave() {
                     ...existingData.scorebox_3,
                     WorkInfo_01: {
                         ...existingData.scorebox_3.WorkInfo_01,
-                        WorkStatus: document.getElementById('cb_sb3_item_1').checked,
-                        Name: document.getElementById('name_sb3_item_1').value
+                        WorkStatus: document.getElementById('cb_sb3_item_1').checked
+                      
                     },
                     WorkInfo_02: {
                         ...existingData.scorebox_3.WorkInfo_02,
-                        WorkStatus: document.getElementById('cb_sb3_item_2').checked,
-                        Name: document.getElementById('name_sb3_item_2').value
+                        WorkStatus: document.getElementById('cb_sb3_item_2').checked
+                        
                     },
                 },
                 scorebox_4:{
