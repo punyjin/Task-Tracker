@@ -1,7 +1,7 @@
 import { handleSave, closeModal, showDetails, fetchData } from "./eventHandlers.js";
 import { onAuthStateChanged, auth } from "./fb_config.js";
 import { f_SignOut } from "./events/signout.js";
-
+import { initializeCountdowns } from "./events/timer.js";
 let username = document.getElementById('uidname');
 function userdatadetails(email) {
     switch (email) {
@@ -20,6 +20,8 @@ onAuthStateChanged(auth, (user) => {
     if (user) {
         username.innerHTML = userdatadetails(user.email);
     } else {
+        document.getElementById('img-table').src = "";
+        document.getElementById('header').innerHTML = "ไม่ได้เข้าสู่ระบบ";
         console.log('No user is signed in.');
         Swal.fire({
             icon: 'success',
@@ -42,3 +44,4 @@ document.querySelector('#detailsModal .btn-close').addEventListener('click', clo
 document.querySelector('#detailsModal .btn-secondary').addEventListener('click', closeModal);
 
 fetchData();
+initializeCountdowns();
