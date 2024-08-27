@@ -9,14 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
-</head>
-<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
         <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand" href="#">Tasks Tracker</a>
+        <a class="navbar-brand" href="#" id="header">Tasks Tracker</a>
         <ul class="navbar-nav ms-auto"> <!-- Align to the right -->
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -33,7 +32,7 @@
                         เปลี่ยนรหัสผ่าน
                     </a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" id="logoutButton" href="#">
+                    <li><a class="dropdown-item" id="logoutButton">
                         <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                         ออกจากระบบ
                     </a></li>
@@ -41,6 +40,8 @@
             </li>
         </ul>
     </nav>
+</head>
+<body>
     <h2 class="text-center mb-5">Tasks Tracker</h2>
     <h4 class="text-center">ระบบแสดงผลการติดตามงาน และ รายละเอียดงาน</h4>
     <h4 class="text-center">ปวส. 1/6 สาขา เทคโนโลยีสารสนเทศ</h4>
@@ -48,14 +49,14 @@
         <table id="taskTable" class="table table-hover">
             <thead class="thead-dark">
                 <tr>
-                    <th>ชื่อวิชา</th>
-                    <th>ช่องที่ 1</th>
-                    <th>ช่องที่ 2</th>
-                    <th>ช่องที่ 3</th>
-                    <th>ช่องที่ 4</th>
-                    <th>สถานะงานทั้งหมด</th>
-                    <th>งานล่าสุด</th>
-                    <th>รายละเอียด</th>
+                    <th class="col-2">ชื่อวิชา</th>
+                    <th class="col-2">ช่องที่ 1 <div id="countdown1"></div></th>
+                    <th class="col-2">ช่องที่ 2 <div id="countdown2"></div></th>
+                    <th class="col-2">ช่องที่ 3 <div id="countdown3"></div></th>
+                    <th class="col-2">ช่องที่ 4 <div id="countdown4"></div></th>
+                    <th class="col-2">สถานะงานทั้งหมด</th>
+                    <th class="col-3">งานล่าสุด</th>
+                    <th class="col-2">รายละเอียด</th>
                 </tr>
             </thead>
             <tbody>
@@ -165,7 +166,7 @@
     </div>
 </div>
     <div class="text-center mt-5">
-        <img class="img-table" src="https://raw.githubusercontent.com/punyjin/Task-Tracker/main/assets/imgs/1717413079689.webp" alt="Task Tracker Image">
+        <img class="img-table" id="img-table" src="https://raw.githubusercontent.com/punyjin/Task-Tracker/main/assets/imgs/1717413079689.webp" alt="Task Tracker Image">
     </div>
     
     <script type="module" src="table.js">
