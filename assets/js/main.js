@@ -1,7 +1,7 @@
-import { handleSave, closeModal, showDetails, fetchData } from "./eventHandlers.js";
+import { handleSave, closeModal, showDetails, fetchData ,initializeCountdowns} from "./eventHandlers.js";
 import { onAuthStateChanged, auth } from "./fb_config.js";
 import { f_SignOut } from "./events/signout.js";
-import { initializeCountdowns } from "./events/timer.js";
+
 let username = document.getElementById('uidname');
 function userdatadetails(email) {
     switch (email) {
@@ -44,4 +44,4 @@ document.querySelector('#detailsModal .btn-close').addEventListener('click', clo
 document.querySelector('#detailsModal .btn-secondary').addEventListener('click', closeModal);
 
 fetchData();
-initializeCountdowns();
+window.onload = initializeCountdowns;
