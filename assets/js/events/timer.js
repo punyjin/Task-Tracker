@@ -1,34 +1,12 @@
-function calculateDeadline(monthsAgo = null, day = null, isNextMonth = false) {
-    const now = new Date();
-    let deadline = new Date(now);
-
-    if (monthsAgo !== null) {
-        // ลดจำนวนเดือน
-        deadline.setMonth(now.getMonth() - monthsAgo);
-    }
-
-    if (day !== null) {
-        // ตั้งวัน
-        deadline.setDate(day);
-    }
-
-    if (isNextMonth) {
-        // ไปยังเดือนถัดไป
-        deadline.setMonth(now.getMonth() + 1);
-        // ตั้งวันในเดือนถัดไป
-        deadline.setDate(day);
-    }
-
-    return deadline.toISOString();
+function getSpecificDate(year, month, day) {
+    return new Date(year, month - 1, day);
 }
-
-// ฟังก์ชันสำหรับการนับถอยหลัง
-function updateCountdown(elementId, deadline) {
+function updateCountdown(elementId, deadlineDate) {
     const element = document.getElementById(elementId);
 
     function getCountdown() {
         const now = new Date();
-        const end = new Date(deadline);
+        const end = new Date(deadlineDate);
         const timeRemaining = end - now;
 
         if (timeRemaining < 0) {
@@ -46,29 +24,23 @@ function updateCountdown(elementId, deadline) {
     function update() {
         element.innerHTML = getCountdown();
     }
-
-    // เรียกใช้งาน update ทุก 1 วินาที
     setInterval(update, 1000);
 }
 
-// ฟังก์ชันเพื่อจัดเก็บและเริ่มการนับถอยหลัง
 export function initializeCountdowns() {
-    // กำหนดวันสุดท้ายตามระยะเวลาที่ต้องการ
-    const deadline1 = calculateDeadline(2); // 2 เดือนที่แล้ว
-    const deadline2 = calculateDeadline(1); // 1 เดือนที่แล้ว
-    const deadline3 = calculateDeadline(null, 31); // วันที่ 31 ของเดือนนี้
-    const deadline4 = calculateDeadline(null, 31, true); // วันที่ 31 เดือนหน้า
+    const deadlines = {
+        deadline1: getSpecificDate(2024, 6, 28).toISOString(),
+        deadline2: getSpecificDate(2024, 7, 26).toISOString(),
+        deadline3: getSpecificDate(2024, 8, 30).toISOString(),
+        deadline4: getSpecificDate(2024, 9, 27).toISOString()
+    };
 
-    // จัดเก็บวันสุดท้ายใน localStorage
-    localStorage.setItem('deadline1', deadline1);
-    localStorage.setItem('deadline2', deadline2);
-    localStorage.setItem('deadline3', deadline3);
-    localStorage.setItem('deadline4', deadline4);
+    Object.keys(deadlines).forEach(key => {
+        localStorage.setItem(key, deadlines[key]);
+    });
 
-    // เริ่มการนับถอยหลัง
     updateCountdown('countdown1', localStorage.getItem('deadline1'));
     updateCountdown('countdown2', localStorage.getItem('deadline2'));
     updateCountdown('countdown3', localStorage.getItem('deadline3'));
     updateCountdown('countdown4', localStorage.getItem('deadline4'));
 }
-
